@@ -1,0 +1,54 @@
+/* CSS Document */
+.tabela_de_horarios{
+	width:100%;
+	border-collapse:collapse;
+	}
+.tabela_de_horarios th{
+	background:#066;
+	color:#FFF;
+	text-shadow:none !important;
+	text-align:center;
+	font-size:13px;
+	padding:5px 3px;
+	}
+.tabela_de_horarios td{
+	font-size:12px;
+	border:1px dotted;
+	border-collapse:collapse;
+	padding:3px 5px;
+	text-align:center;
+	}
+.center_content{
+	margin:0 auto !important;
+	width:220px;
+	}
+.center_period{
+	margin:0 auto !important;
+	width:275px;
+}
+.text-center{text-align: center;}
+.ui-select{width:100% !important;}
+.my-popup{
+	padding:30px;
+	}
+.atraso{color:#900; font-weight:bold;}
+
+#diario{position:relative; width: auto;  }
+#registro{ margin-top:40px; width: 100%; position: relative;}
+#registro #bater{
+    width:200px;
+    position:relative;
+    margin-left:-100px;
+    margin-top:-25px;
+    left: 50%;
+    top:50%;
+}
+#mod_admin{position: relative; margin-top:70px;}
+#mod_admin a{display:block;}
+
+@media all and (orientation:landscape) {
+.center_period{
+	margin:0 auto !important;
+	width:auto;
+}
+}
